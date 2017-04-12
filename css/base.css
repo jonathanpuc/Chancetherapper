@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: lightpink;
+    line-height:1.6;
+    letter-spacing: 0.5px;
+}
+
+ul, li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: .95em;
+    font-weight: bold
+}
+
+img {
+    max-width: 100%;
+}
+
+.name{
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 2px black;
+}
+
+h1 {
+      font-family: 'Anton', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.main-nav a{
+    font-family: arial;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+
+a:hover {
+    color: white;
+}
+
+.name {
+    letter-spacing: 1.5px;
+}
+
+.name a:link {
+    color:floralwhite;
+}
+
+.name a:visited {
+    color:floralwhite;
+}
+
+/* ==============================
+    BASE LAYOUT STYLES
+================================= */
+
+    /** NAVIGATION **/
+
+.name {
+    font-size: 3em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 5px;
+
+}
+
+.name a,
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    font-size: 1.15em;
+    text-transform: uppercase;
+ 
+}
+
+.main-nav a {
+       font-family:  'Indie Flower', cursive;
+        font-weight: bolder;
+}
+
+
+    /** LAYOUT CONTAINERS **/
+
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #ff527b;
+    border-bottom: 5px solid #ff0541;
+}
+
+.banner, .main-footer {
+    text-align: center;
+}
+
+.banner {
+ padding: 1.5em 0;
+    background-color: white;
+}
+
+.col {
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.main-footer {
+    background-color: white;
+    padding: 2em;
+    margin-top:30px;
+    border-top: 1px solid grey;
+    font-family: 'Anton', sans-serif;
+}
+
+ /** PAGE ELEMENTS **/
+
+.logo {
+    width: 130px;
+}
+
+.indextour {
+    width: 1000px;
+}
+
+ /** TOUR PAGE **/
+.row {
+    background-color: black;
+    margin-top: -9px; 
+    padding-top: 50px;
+    margin-bottom:-30px;
+}
+
+.upcoming {
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 2px
+}
+
+.show {
+    text-align: center;
+}
+.block {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.city {
+    font-size: 1.8em;
+    color:white;
+    padding: 5px;
+}
+
+.date {
+    padding: 5px;
+    font-size: 1.1em;
+    margin-top: -16px;
+    color:white;
+}
+
+.buy {
+    padding: 5px;
+}
+.buy a {
+    padding: 0.5em;
+    background-color: white;
+    color: black;
+}
+
+
+
+ /** INDEX PAGE**/
+
+#grammy {
+ border-radius: 5px
+    
+}
+
+ /** SHOP PAGE **/
+
+
+
+.product img:hover, .addtoCart a:hover  {
+    background-color: deeppink;
+}
+
+.product img {  
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.shop {
+    margin-top: 60px;
+}
+.item {
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+
+.itemName { 
+    font-size: 1.3em; 
+    margin-top: -80px
+}
+
+.price {
+    font-size: .85em;
+    margin-top: -30px;  
+    padding: 5px;
+}
+
+.addtoCart a {
+    padding: 5px;
+    background-color: white;
+    
+}
+
+.addtoCart {
+    font-size: .70em;
+    margin-top: -10px;  
+} 
+
+/**ABOUT**/
+
+.donate a {
+    background-color: white;
+    padding: 10px 20px 10px 20px
+}
+
+.donate a:hover {
+    color: white;
+    background-color: hotpink;
+}
+
+.about {
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* ==============================
+    MEDIA QUERIES
+================================= */
+
+@media (min-width:769px) {
+
+/** SHOP PAGE **/
+
+
+.itemName { 
+   margin-top: -70px;
+}
+
+
+
+
+
+
+        
+} /**769px**/
+
+@media (min-width:1025px) {
+
+    .main-nav li{
+        padding: 15px;
+    }
+    
+/** TOUR PAGE **/
+.row {
+   padding-top: 0;
+    margin-top: -7.5px;
+}
+
+.upcoming {
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 2px
+}
+
+.show {
+    text-align: center;
+}
+.block {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.city {
+    font-size: 1.8em;
+    color:white;
+    padding: 5px;
+}
+    
+    .cityDate {
+        padding: 10px;
+    }
+
+.date {
+    padding: 5px;
+    font-size: 1.1em;
+    margin-top: -16px;
+    color:white;
+}
+
+.buy {
+    padding: 30px;
+}
+.buy a {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: white;
+    color: black;
+}
+
+        
+} /**1025 px**/
